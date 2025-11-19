@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 246 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.8.125:3000/
+2:04:29 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Calculators.jsx:79:122: ERROR: Expected "}" but found ":"
+2:04:30 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Calculators.jsx:79:122: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Calculators.jsx:79:122
+  
+  Expected "}" but found ":"
+  77 |          {result && (
+  78 |            <div className="text-slate-200 space-y-1">
+  79 |              <div>Total: <span className="font-semibold">${'{'}result.total.toLocaleString('es-CL', { minimumFractionDigits: 0 }){'}'}</span></div>
+     |                                                                                                                            ^
+  80 |              <div>Por persona: <span className="font-semibold">${'{'}result.per_person.toLocaleString('es-CL', { minimumFractionDigits: 0 }){'}'}</span></div>
+  81 |            </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2:04:49 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Calculators.jsx:79:122: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Calculators.jsx:79:122
+  
+  Expected "}" but found ":"
+  77 |          {result && (
+  78 |            <div className="text-slate-200 space-y-1">
+  79 |              <div>Total: <span className="font-semibold">${'{'}result.total.toLocaleString('es-CL', { minimumFractionDigits: 0 }){'}'}</span></div>
+     |                                                                                                                            ^
+  80 |              <div>Por persona: <span className="font-semibold">${'{'}result.per_person.toLocaleString('es-CL', { minimumFractionDigits: 0 }){'}'}</span></div>
+  81 |            </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
